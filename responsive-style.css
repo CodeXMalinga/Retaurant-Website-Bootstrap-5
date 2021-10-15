@@ -1,0 +1,42 @@
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 991px) {
+  /* Custo Classes */
+  .text-content {
+    width: 100%;
+  }
+
+  /* Nav Brand */
+  .navigation-wrap .navbar-brand img {
+    height: 3.8125rem;
+  }
+
+  .navigation-wrap {
+    text-align: center;
+    background-color: var(--white-color);
+  }
+
+  .navigation-wrap .nav-link {
+    line-height: 1.825rem;
+  }
+
+  .top-banner {
+    padding: 9.375rem 0;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 2.8rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  /* Top Banner */
+  .top-banner {
+    padding: 8.875rem 0 9.375rem;
+  }
+}
