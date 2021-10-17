@@ -266,13 +266,40 @@ p {
  about section Design
 ==========================================
 */
+.about-section {
+  background-color: var(--white-color);
+}
 
+.about-section .card,
+.about-section .card img {
+  border-radius: 0.625rem;
+}
+
+.about-section .text-sec {
+  padding-left: 2rem;
+}
 /*
 ==========================================
  food type section Design
 ==========================================
 */
+.food-type ul li {
+  font-size: 1rem;
+  color: var(--text-color);
+  line-height: 2rem;
+  position: relative;
+  margin-left: 30px;
+  display: flex;
+}
 
+.food-type ul span i {
+  position: absolute;
+  left: -2.1875rem;
+  top: 0.35rem;
+  font-size: 1.25rem;
+  vertical-align: middle;
+  color: var(--primary-color);
+}
 /*
 ==========================================
  explore food section Design
